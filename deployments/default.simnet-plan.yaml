@@ -55,6 +55,11 @@ plan:
             path: contracts/donation-management.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: impact-measurement
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/impact-measurement.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: project-milestone
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/project-milestone.clar
